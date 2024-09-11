@@ -145,6 +145,20 @@ sunbath
 ## Question 9
 What can you leverage to spawn a privileged shell?
 #### Method
+As we can see above Mitch user has accessed vim editor with sudo. We can run vim as sudo. We can escalate our privileges to root:
+
+    sudo vim -c ':!/bin/bash'
+
+![alt text](/images/q9A.png)
+
+So we have access! We have also finally gotten into /sunbath! Having a look around theres a lot more info here. 
+
+#### Answer
+vim
+
+## Question 10
+Is there any other user in the home directory? What's its name?
+#### Method
 So cding into the /home directory shows us there is another user other than mitch - sunbath
 
 #### Answer
