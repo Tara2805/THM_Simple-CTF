@@ -143,7 +143,7 @@ So cding into the /home directory shows us there is another user other than mitc
 sunbath
 
 ## Question 9
-Is there any other user in the home directory? What's its name?
+What can you leverage to spawn a privileged shell?
 #### Method
 So cding into the /home directory shows us there is another user other than mitch - sunbath
 
