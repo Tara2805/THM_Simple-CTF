@@ -22,7 +22,7 @@ How many services are running under port 1000?
 
 ![alt text](/images/q1.png)
 
-### Question 2
+## Question 2
 What is running on the higher port?
 
 #### Method
@@ -43,7 +43,7 @@ So we can see that SSH is running on this higher port
 #### Answer
 ssh
 
-### Question 3
+## Question 3
 What's the CVE you're using against the application?
 
 #### Method
@@ -86,7 +86,7 @@ So the site tells us CMS is secure... Lets try to bypass the sites security. So 
 #### Answer
 CVE-2019-9053
 
-### Question 4
+## Question 4
 To what kind of vulnerability is the application vulnerable?
 #### Method
 So from the previous question we have already gotten this information. 
@@ -94,7 +94,7 @@ So from the previous question we have already gotten this information.
 #### Answer
 sqli
 
-### Question 5
+## Question 5
 What's the password?
 #### Method
 Download the exploit from ExploitDB. Or download from Terminal using
@@ -111,3 +111,41 @@ However! I did run into problems as the script in running Python 2 but we are ru
 
 #### Answer
 secret
+
+## Question 6
+Where can you login with the details obtained?
+#### Method
+Common knowledge
+
+#### Answer
+ssh
+
+## Question 7
+What's the user flag?
+#### Method
+Log in using all the information we've discovered up to this point.
+
+    ssh -p 2222 mitch@x.x.x.x
+
+After gaining access have a look around using basic linux commands. Find the file in the /mitch directory and read it to gain the flag.
+
+![alt text](/images/q7.png)
+
+#### Answer
+G00d j0b, keep up!
+
+## Question 8
+Is there any other user in the home directory? What's its name?
+#### Method
+So cding into the /home directory shows us there is another user other than mitch - sunbath
+
+#### Answer
+sunbath
+
+## Question 9
+Is there any other user in the home directory? What's its name?
+#### Method
+So cding into the /home directory shows us there is another user other than mitch - sunbath
+
+#### Answer
+sunbath
