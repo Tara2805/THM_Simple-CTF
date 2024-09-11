@@ -94,10 +94,7 @@ So from the previous question we have already gotten this information.
 #### Answer
 sqli
 
-#### Answer
-CVE-2019-9053
-
-### Question 4
+### Question 5
 What's the password?
 #### Method
 Download the exploit from ExploitDB. Or download from Terminal using
@@ -110,7 +107,7 @@ To use the script run:
 
 However! I did run into problems as the script in running Python 2 but we are running Python 3. So I added enclosed () to all print statements to fix this. So after making tweaks to the Python script, run it again. Wait a bit while it finds the details. 
 
-
+![alt text](/images/q4.png)
 
 #### Answer
-sqli
+secret
