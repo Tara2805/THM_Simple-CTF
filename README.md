@@ -157,9 +157,11 @@ So we have access! We have also finally gotten into /sunbath! Having a look arou
 vim
 
 ## Question 10
-Is there any other user in the home directory? What's its name?
+What's the root flag?
 #### Method
-So cding into the /home directory shows us there is another user other than mitch - sunbath
+Ok so having a look around the flag is not in /sunbath! Lets go to the root directory and find the flag. 
+
+![alt text](/images/q10.png)
 
 #### Answer
-sunbath
+W3ll d0n3. You made it!
